@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{669E4226-14EC-42D9-9746-72A0AA425CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{E339477E-66FB-4FFA-92C3-0DD275BAD82F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{701B7149-4263-4F94-B74A-6A4AB3749C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{FB1B005A-5C3C-4C93-809B-CEE89D3CBC0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicContent", "{B5D7A3BE-2CA9-4A7D-B929-28E8067A77A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon2k25.Feature.BasicContent", "code\Hackathon2k25.Feature.BasicContent.csproj", "{83351852-6920-4463-BE9F-40DD35999809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E0D70399-5640-4105-9E2F-2918DD55ADB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon2k25.Project.Website", "Hackathon2k25.Project.Website\Hackathon2k25.Project.Website.csproj", "{37DF200D-D6BC-45EA-A130-E3525B691979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83351852-6920-4463-BE9F-40DD35999809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83351852-6920-4463-BE9F-40DD35999809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83351852-6920-4463-BE9F-40DD35999809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83351852-6920-4463-BE9F-40DD35999809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DF200D-D6BC-45EA-A130-E3525B691979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DF200D-D6BC-45EA-A130-E3525B691979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DF200D-D6BC-45EA-A130-E3525B691979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DF200D-D6BC-45EA-A130-E3525B691979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5D7A3BE-2CA9-4A7D-B929-28E8067A77A7} = {E339477E-66FB-4FFA-92C3-0DD275BAD82F}
+		{83351852-6920-4463-BE9F-40DD35999809} = {B5D7A3BE-2CA9-4A7D-B929-28E8067A77A7}
+		{E0D70399-5640-4105-9E2F-2918DD55ADB2} = {FB1B005A-5C3C-4C93-809B-CEE89D3CBC0A}
+		{37DF200D-D6BC-45EA-A130-E3525B691979} = {E0D70399-5640-4105-9E2F-2918DD55ADB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {DE809493-BAD3-4004-AB53-E9BACFF61942}
+	EndGlobalSection
+EndGlobal
